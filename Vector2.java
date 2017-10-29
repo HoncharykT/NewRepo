@@ -1,1 +1,17 @@
-pe[jfpeznerngvnzvr;ng
+public class Vector2{
+	int x;
+	int y;
+	int z;
+
+	public Vector2(int x, int y, int z){
+		this.x=x;
+		this.y=y;
+		this.z=z;
+	}
+
+	public void print(){
+		System.out.println("("+x+","+y+","+z+")");
+	}
+
+}
+

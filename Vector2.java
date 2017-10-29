@@ -1,4 +1,5 @@
 public class Vector2{
+
 	int x;
 	int y;
 	int z;
@@ -11,6 +12,13 @@ public class Vector2{
 
 	public void print(){
 		System.out.println("("+x+","+y+","+z+")");
+	}
+
+
+	public double modul(){
+		double a;
+		a=sqrt(x*x+y*y+z*z);
+		return a;
 	}
 
 }
